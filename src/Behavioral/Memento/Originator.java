@@ -5,7 +5,9 @@
 
 package Behavioral.Memento;
 
-public class Originator implements OriginatorInterface{
+import java.io.Serializable;
+
+public class Originator implements OriginatorInterface, Serializable {
     private String state;
 
     public String getState() {
