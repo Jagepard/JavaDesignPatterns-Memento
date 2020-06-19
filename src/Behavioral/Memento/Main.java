@@ -7,7 +7,7 @@ package Behavioral.Memento;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         OriginatorInterface originator = new Originator();
         CaretakerInterface caretaker   = new Caretaker();
 
